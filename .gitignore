@@ -1,0 +1,20 @@
+# Composer files
+vendor
+composer.phar
+composer.lock
+
+# OS Helper files
+.php_cs.cache
+.DS_Store
+Thumbs.db
+
+# Other Common rules
+._*
+.~lock.*
+.buildpath
+.project
+.settings
+
+# IDE-relative files and folders
+.idea
+nbproject

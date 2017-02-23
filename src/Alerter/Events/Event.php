@@ -11,8 +11,9 @@
 
 namespace Alerter\Events;
 
-use DateTime;
 use Alerter\Notifications\Notification;
+use DateTime;
+use Exception;
 
 /**
  * Class Event
@@ -39,6 +40,8 @@ class Event
      * @param int           $typeId
      * @param mixed         $entityId
      * @param DateTime|null $timestamp
+     *
+     * @throws Exception
      */
     public function create($typeId, $entityId, $timestamp = null)
     {
